@@ -1,0 +1,31 @@
+#update the packages
+sudo yum update -y
+
+#install java 
+sudo yum install java-17-amazon-corretto-headless
+sudo yum install java-17-amazon-corretto
+sudo yum install java-17-amazon-corretto-devel
+sudo yum install java-17-amazon-corretto-jmods
+java -version
+
+#update packages
+sudo yum update
+
+#jenkins repo file
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+>     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+#import key for a jenkins file
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+#install jenkins
+sudo yum install jenkins -y
+
+#enable jenkins
+sudo systemctl enable jenkins
+
+#status jenkins
+systemctl status jenkins
+
+
+
