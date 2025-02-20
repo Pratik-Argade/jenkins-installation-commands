@@ -6,7 +6,7 @@ sudo yum install java-17-amazon-corretto-headless
 sudo yum install java-17-amazon-corretto
 sudo yum install java-17-amazon-corretto-devel
 sudo yum install java-17-amazon-corretto-jmods
-The installation location is /usr/lib/jvm/java-17-amazon-corretto.<cpu_arch>.
+#The installation location is /usr/lib/jvm/java-17-amazon-corretto.<cpu_arch>.
 
 java -version
 
