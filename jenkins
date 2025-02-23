@@ -15,7 +15,9 @@ sudo yum update
 
 #jenkins repo file
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
->     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+
 
 #import key for a jenkins file
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
