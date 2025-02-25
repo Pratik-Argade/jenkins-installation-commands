@@ -1,1 +1,8 @@
+ #Update the package list
+    sudo yum update -y
 
+ #install the Git on a linux machine
+    sudo yum install git -y
+
+ #check installed git version
+   git --version
