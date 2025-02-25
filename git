@@ -6,3 +6,4 @@
 
  #check installed git version
    git --version
+
